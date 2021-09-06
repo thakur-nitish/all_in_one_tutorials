@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 0px;
+   margin:0px;
+}
+.head{
+    background-color:rgb(230, 173, 228);
+    
+    padding:15px;
+    padding-left: 80px;
+    border-radius: 10px;
+}
+.container{
+          background-color:rgb(218, 210, 210);  
+          border-radius: 10px;   
+          margin-left:  100px;
+          margin-right: 100px;
+        
+          
+}
+
+form{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+input{
+    width:100%;
+}
+input[type="submit"]{
+            background-color:yellow;
+            width: 100px;
+            padding: 15px;
+            padding-right: 15px;
+            border-radius: 5px;
+            margin: 10px;
+}
+input[type="submit"]:hover{
+     background-color:blue;
+
+     
+}
+input{
+    border-radius: 10px;
+}
+textarea{
+      border-radius: 10px;
+      width:100%;
+}
+input[type="reset"]{
+    background-color:red;
+    width: 100px;
+    padding: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+  .head1{
+      font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 621px) {
+    /* For mobile phones: */
+    .container{
+      width: 100%;
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    .nav{
+      width: 110%;
+      
+      
+      
+    }
+    .logo{
+         width: 7%;
+         margin-right: 0px;
+         margin-left: 0px;
+         padding:0px;
+    }
+  
+  }
